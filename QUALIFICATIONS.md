@@ -1,3 +1,8 @@
+## Development Philosophies
+
+
+## Qualifications
+
 ### Planning
 - Work closely and professionally with stakeholders, designers
 - Pre-production
@@ -52,12 +57,12 @@
 - Development, Staging and Production environments
 - Full stack LAMP (Linux/Apache/MySQL/PHP)
 - AWS, Rackspace, Linode, Site5 server/account management
-- Debugging, troubleshooting, log review
 - Data integrity, database snapshotting, backups
 
 ### Maintenance
 - Updating/Upgrading
 - Thorough Markdown documentation, READMEs, Wikis
+- Debugging, troubleshooting, log review
 
 ### Standalone
 - iOS - Swift, SwiftUI, Xcode, Objective-C, Interface Builder
@@ -74,3 +79,4 @@
 - JetBrains - PhpStorm, YouTrack, UpSource
 - Microsoft Office - Outlook, Word, Excel, PowerPoint
 - Adobe Acrobat
+
