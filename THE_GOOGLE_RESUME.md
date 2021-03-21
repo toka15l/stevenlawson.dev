@@ -256,3 +256,25 @@ SKIPPING FOR NOW
 - this section to get shorter with work experience
   - some candidates only list their major and degree
 - high school almost never belongs on a resume
+- work experience should be listed first, education later
+
+#### Skills
+- a must for technical positions
+- list of any software, programming languages or specific skills you know
+- avoid a length disorganized list - divide up into appropriate categories
+- do not list obvious skills such as microsoft office - this is assumed
+  - windows and mac can be left out unless also listing something less obvious like linux
+- anything on your resume is fair game, remember you can be called out if you aren't honest about what you know
+
+#### Awards and Honors
+- in my case should be under education
+- add description
+  - "Recipient of Vincent R. Jacobs Award, given annually to the top woman by GPA out of 3,000 person senior class"
+  - if you can quantify your award to suggest selectivity this is best
+  
+#### What Not to Include
+- should never include race, religion, sexual preference, marital status or anything associated with discrimination
+- pictures (which are indicitive of some of these) should not be included for this reason
+- these pieces of information expose a company to increased liability
+
+### How Long is Too Long?
