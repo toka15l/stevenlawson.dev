@@ -96,7 +96,7 @@ a good employee does everything that is assigned to them, a great one asks for m
 - be really good at what you do - shut off distractions or be extra careful
 - solicit feedback proactively - don't wait until reviews for this, get frequently
 - learn about other teams - if you're a dev, learn about what project managers do, even a little exposure will go a long way, it will show what different roles do and how they fit togeher
-
+ 
 #### Become a generalist
 - the best pm, marketers and developers have something in common - they understand each other's roles
 - start from your role and work outwards
@@ -128,3 +128,131 @@ a good employee does everything that is assigned to them, a great one asks for m
   - you're doing something illegal, dangerous or stupid - like really bad stuff
   - your interviewers think like your parents - my parents would think drunk pictures on facebook would be unprofessional, some interviewers may think the same thing
 - maybe look on odesk.com, elance.com or rentacoder.com some some little side gigs that can go on resume
+
+## Chapter 3: Getting in the Door
+
+SKIPPING FOR NOW
+
+## Chapter 4: Resumes
+- a good resume highlights a canidate's relevant skills
+- must present candidate in a good light - it's the first chance for the job
+
+#### Six hallmarks of a powerful resume
+- every line should contribute to the employer's wanting to hire you
+- skip the fluff
+- before submitting - go through each line, ask yourself why it would help convince an employer to hire you, if it can't give a reason it probably shouldn't be there
+
+##### 1. Accomplishment oriented
+- shouldn't read too much like a job description
+- should highlight what you did, not what you were supposed to do
+  - **responsibility oriented** "analyzed new markets and explored potential entrance strategies for china division"
+  - **accomplishment oriented** "led entrance strategy for blah product in china, and successfully persuaded CEO to refocus division on the enterprise market, resulting in a 7 percent increate in profits"
+- accomplishment oriented packs a much stronger punch
+- everyone wants an employee who "gets things done"
+- watch out for things like "contributed to", "participated in" or "helped out with" - they show that you are more focused on responsibilities than accomplishments
+  - imagine someone at microsoft saying they "contributed to the implimentation of microsoft office"
+
+##### 2. Quantifiable Results
+- if you really "reduced server latency" then why can't you tell them how much
+- makes results more meaningful by showing the impact you had
+  - if you implemented a change that reduced the company costs or increased profits the employers will want to hire you
+- in tech it's good to quantify in more technical terms - seconds of latency, number of bugs, etc..
+  - strike a balance, should be understandable to HR, not just fellow engineers
+- "implemented crash reporter and used results to fix the biggest causes of crashes" -> "implemented crash reporter and used results to fix three biggest causes of crashes, leading to a 45 percent reduction in customer support calls"
+- going from "you did something important" to "wow you really did something important"
+
+##### 3. Well Targeted
+- tailoring a resume to a position is a must
+  - competition is higher and the customization is necessary to put your resume on the same playing field, or to stand out
+- tailored to position and company
+  - especially true for job switching - jumping from engineer -> team lead you should show leadership experience
+  - ex: company is facing customer support issues - emphasise your prior experience in handling upset clients
+- figuring out how to target resume is not hard
+  - look at company's website or job description, ask yourself what their biggest issues are. Even if you don't have the skills for the exact issues, maybe you have the skills one would need to solve them
+
+##### 4. Universally Meaningful
+- stay away from technical jargon (both technical and non-technical)
+- should be meaningful to recruiters as well as managers and teammates
+- avoid acronyms, translate highly technical terminology to plain english
+- explain impact or goals, particularly in a quantifiable way (this helps people understand your value)
+- make sure everyone will get the "gist" of your resume
+
+##### 5. Clean, Professional, Concise
+- many recruiters will throw away a resume for a single typo (poor communication skills)
+- tech companies are more forgiving, but still don't be sloppy
+- check resume for the following:
+  - conciseness - avoid large blocks of text (people hate reading and will skip paragraphs)
+    - your resume should be a collection of bullets of 1-2 lines each
+  - spelling - tip to check spelling - read resume backwards
+  - grammar - have others review your resume for weird grammar
+  - margins - ideally 1", no less than 0.75"
+  - normal fonts - times new roman or arial, not smaller than 10pt
+  - consistency - commas or semicolons to separate in a list, end a bullet with period or not, bold, underline, italics - these decisions aren't important but should be consistent
+  - white space - use ample white space will make resume easy to read, crowded is straining
+  - no first person - avoid using "I", "me" or "myself", use only third person throughout resume except with objective statement (if using one)
+  
+##### 6. Well Structured and Clear
+- recruiters eyes jump to certain things - education, experience, technical skills, etc..
+- remember that the path of least resistance for a recruiter is to throw away your resume - if they can't find what they are looking for they will toss it
+- small formatting changes (EXAMPLE PAGE 63 CHART)
+- decide what to emphasise, the role of the job vs the employer for example
+- what will differentiate me the most from other applicants? will this get me in the yes pile?
+
+#### The Structure
+- there are other structures, but should generally stick to reverse chronological
+- should have employement (or work experience), education, and optionally an objective, summary, technical skills or projects section
+  - which sections to choose should be based on skills, background and desired position
+
+#### The Objective
+- these are rarely interesting (and shouldn't really be) and tend to waste space
+- should only be used if it adds important information
+  - such as the desire to switch roles, things to point recruiter in right direction (being a programmer and wanting a programming job doesn't need to be specified for example)
+- most software engineers do not need an objective, experience is clear of the role and objective
+- if you don't need to redirect to a new role, stick to a summary or list of key accomplishments instead
+- objectives may prevent you from getting tangential jobs they may have considered you for
+
+#### Summary (or Key Accomplishments)
+- can wow the reader, but usually so vague that there is no impact
+- should read more like key accomplishments
+  - so much so that the section is often called "Summary and Key Accomplishments"
+- demonstrate your value-add tot he prospective company (EXAMPLES PAGE 66 BULLETS)
+
+#### Work Experience
+- most important section of resume for most people
+- at a minimum:
+  - job title
+  - company name
+  - firm location
+  - dates of employment
+- most recent job should have 4-5 bullets of 1-2 lines each
+  - each line shuld focus on accomplishments and backup up by numbers whenever possible
+- can start by listing biggest accomplishments on a sheet of paper
+  - make sure these are impressive to anybody, not just you or your own team
+  
+##### How Far Back Should It Go?
+- only as far as the positions are relevant, no more than 3-5 jobs
+- does not need to be a complete employment history
+
+#### Projects
+- software engineers with substantial nonwork experience should include a projects section (though this seems like it might be more for college students???)
+- EXAMPLE PAGE 67 BLOCK
+
+#### Education
+- experience matters more than education
+- education is a checkbox, but an important one
+- should include:
+  - university name
+  - dates attended
+  - location
+  - major, minor and degree
+    - if major has a nonstandard name you should explain the curriculum on the resume - and in a way that shapes the reader's perception
+    - VERY GOOD TIME ARTS LIKE EXAMPLE PAGE 68 - U of Penn Digital Media Design (DMD) - "a computer science-based major with additional courses in design and communications"
+      - maybe time arts could be something like "a computer science-based major with additional courses in art, design interaction and animation"
+  - gpa
+  - activities
+    - not everything, just most impressive/relavant, more experienced candidates usually will not include activities
+  - related coursework - current students/recent graduates mostly, probably not me
+  - awards
+- this section to get shorter with work experience
+  - some candidates only list their major and degree
+- high school almost never belongs on a resume

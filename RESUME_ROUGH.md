@@ -1,0 +1,86 @@
+## Good Client Work
+- aura cacia pos
+- mcdonalds english under the arches
+- american red cross
+- quick chek
+- nsm pizza/give back
+- cos posters
+- file repository
+- best in class
+- iat
+- prevalence map
+- humira event
+- touchscreens
+- org chart/etmr
+- apoc/istat
+
+## Good Brella Work
+- documentation (READ AND TAKE SPECIFIC NOTES)
+- gitlab
+- security standards
+- standard operating procedures (READ AND TAKE SPECIFIC NOTES)
+
+
+## All Client Work
+- aura cacia
+  - swiftui-pos
+  - swiftui-pos-deployment-website
+- iqvia
+  - iqvia3
+- mcdonalds
+  - english-under-the-arches-laravel6
+- american red cross
+  - american-red-cross-portal-updated
+  - arc-builder
+- buffalo wild wings
+- revlon
+  - american-crew-psp-portal
+  - american-crew-mmg-portal
+- nfpa
+- boehringer ingelheim
+  - bi-ethics
+- quick-chek
+- abbvie
+  - 6connex-virtual-meetings
+    - code-of-conduct
+    - nsm-pizza-form
+    - cos-posters
+    - file-repository-laravel-8
+    - nsm-give-back
+  - best-in-class
+  - iat-leaderboard-portal
+  - about-time-p2
+  - prevalence-map
+  - about-time-leaderboard-p3
+  - eular-backend
+  - EULAR
+  - humira-event-app??
+  - oncology-touchscreen
+  - oncology-touchscreen-app
+  - neuro-touchscreen
+  - asco-gbm-heatmap
+  - asco-touchscreen
+  - asco-mod-kiosk
+  - asco-clinical-trials
+  - eha-bcl-touchscreen
+  - neuro-touchscreen-ean
+  - eha-clinical-trials
+  - eha-bcl-hm-touchscreen
+  - cao-yearbook
+- abbott
+  - banners
+  - org-chart-v2
+  - apoc
+  - istat
+  - commitment-wall
+  - org-chart-automation-tool-v2
+- wiley
+- n2y
+- jaffee
+  - pyschotherapy
+- brella
+  - brella.com
+    - brella.com_react_2020
+  - documentation
+  - ar
+  

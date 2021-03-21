@@ -1,5 +1,10 @@
 ## Development Philosophies
-
+- Keep it simple (KISS)
+- Model-view-controller (MVC) principals
+- "Don't Repeat Yourself" (DRY) principals
+- Object Oriented
+- Standardization
+- Ability for any developer to pick up on a project without without need for handoff though simple, dry programming, thorough documentation
 
 ## Qualifications
 
@@ -74,8 +79,6 @@
 ### Everyday
 - Good communication, history of remote work, native English
 - Slack, Discord, Zoom
-- Model-view-controller (MVC) principals
-- "Don't Repeat Yourself" (DRY) principals
 - JetBrains - PhpStorm, YouTrack, UpSource
 - Microsoft Office - Outlook, Word, Excel, PowerPoint
 - Adobe Acrobat
