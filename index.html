@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
     <style>
       .gradient {
         background: linear-gradient(90deg, #621f86 0%, #ef5437 100%);
@@ -27,14 +26,6 @@
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div id="logo" class="pl-4 flex items-center hidden">
           <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-            <!--Icon from: http://www.potlabicons.com/ -->
-            <!--<svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-              <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
-              <path
-                class="plane-take-off"
-                d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-              />
-            </svg>-->
             Steven Lawson
           </a>
         </div>
@@ -66,7 +57,6 @@
     <!--Hero-->
     <div class="pt-24">
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
           <p class="uppercase tracking-loose w-full">Senior Software Engineer</p>
           <h1 class="my-4 text-5xl font-bold leading-tight w-full">
@@ -75,19 +65,14 @@
           <p class="leading-normal text-2xl mb-8">
             Professional and secure full stack collaborative&nbsp;development
           </p>
-          <!--<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Subscribe
-          </button>-->
         </div>
-        <!--Right Col-->
         <div class="w-full md:w-3/5">
-          <!--<img class="w-full md:w-4/5 z-50" src="hero.png" />-->
           <object data="img/hero.svg" class="mt-5 mb-24 w-10/12 float-right"></object>
         </div>
       </div>
     </div>
     <div class="relative -mt-12 lg:-mt-24">
-      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-2.000000, 44.000000)" fill="#FFFFFF" fill-rule="nonzero">
             <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
@@ -108,7 +93,7 @@
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Experience
+          Philosophies
         </h1>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -116,40 +101,34 @@
         <div class="flex flex-wrap mb-12">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Planning
+              Collaboration
             </h3>
-            <ul class="text-gray-600 mb-8 ml-4 list-disc">
-              <li>Work closely and professionally with stakeholders, designers</li>
-              <li>Pre-production</li>
-              <li>Architecture/system planning</li>
-              <li>Agile board/task management</li>
-              <li>Information security checklists/sign-offs</li>
-              <li>Privacy/GDRP compliance</li>
+            <p class="text-gray-600">By working together as a team with modern workflows and tools we can create amazing work, and we can create it efficiently.</p>
+            <ul class="text-gray-600 mb-8 ml-4 list-disc mt-3 space-y-3">
+              <li><strong>Version Control</strong> &ndash; utilizing Git with the <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" class="text-purple-600" target="_blank">GitFlow</a> workflow to make collaborative coding effortless</li>
+              <li><strong>Code Review</strong> &ndash; keeping code clean, finding bugs early, educating team members</li>
+              <li><strong>Documentation</strong> &ndash; keeping knowledge available for the entire life of a project for any developer, standardizing what we do</li>
             </ul>
           </div>
           <div class="w-full sm:w-1/2 p-6">
-            <object data="img/scrum_board.svg" class="w-9/12 float-right"></object>
+            <object data="img/collaboration.svg" class="w-9/12 float-right"></object>
           </div>
         </div>
         <div class="flex flex-wrap flex-col-reverse sm:flex-row mb-12">
           <div class="w-full sm:w-1/2 p-6 mt-6">
-            <object data="img/collaboration.svg" class="w-9/12"></object>
+            <object data="img/devops.svg" class="w-9/12"></object>
           </div>
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="float-right">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Collaboration
+                DevOps
               </h3>
-              <ul class="text-gray-600 mb-8 ml-4 list-disc">
-                <li>Lead dev groups</li>
-                <li>Git - descriptive commit messages</li>
-                <li>GitLab/GitHub</li>
-                <li>Gitflow Workflow</li>
-                <li>feature, refactor, bugfix and hotfix branches</li>
-                <li>Version tagging</li>
-                <li>Rebasing</li>
-                <li>Code Review</li>
-                <li>Merge/Pull Requests</li>
+              <p class="text-gray-600">Utilizing a DevOps toolchain lets us focus on the product itself instead of the process while keeping us agile.</p>
+              <ul class="text-gray-600 mb-8 ml-4 list-disc mt-3 space-y-3">
+                <li><strong>CI/CD Pipelines</strong> &ndash; continuous integration and deployment to always have the latest version up</li>
+                <li><strong>Environment</strong> &ndash; separate environments for <span class="font-mono text-white bg-gray-400 px-1">develop</span> to test, <span class="font-mono text-white bg-gray-400 px-1">staging</span> to qa and <span class="font-mono text-white bg-gray-400 px-1">production</span> for the world</li>
+                <li><strong>Issue Tracking</strong> &ndash; having a centralized canonical list of issues cuts out confusion</li>
+                <li><strong>Automated Testing</strong> &ndash; not relying on humans to continually check the mundane</li>
               </ul>
             </div>
           </div>
@@ -157,179 +136,117 @@
         <div class="flex flex-wrap mb-12">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Backend
+              Development
             </h3>
-            <ul class="text-gray-600 mb-8 ml-4 list-disc">
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>Secure routing</li>
-              <li>Middleware</li>
-              <li>Strict validation</li>
-              <li>Experience with Wordpress/CakePHP</li>
-              <li>Automated testing</li>
-              <li>Composer</li>
-              <li>MySQL, Database management</li>
+            <p class="text-gray-600">Having strong development principals minimizes the headaches we encounter and increases stability.</p>
+            <ul class="text-gray-600 mb-8 ml-4 list-disc mt-3 space-y-3">
+              <li><strong>DRY</strong> &ndash; "Don't Repeat Yourself" - duplicate code is hard to maintain and causes inconsistencies</li>
+              <li><strong>KISS</strong> &ndash; "Keep it simple, stupid" - code should be easy to understand and only as complex as it needs to be</li>
+              <li><strong>MVC</strong> &ndash; Model-view-controller - this design pattern separates code logically and makes UI painless</li>
+              <li><strong>OOP</strong> &ndash; Object Oriented Programming - breaking code into modular pieces identifies purpose and helps reusability </li>
             </ul>
           </div>
           <div class="w-full sm:w-1/2 p-6">
-            <object data="img/server.svg" class="w-9/12 float-right"></object>
+            <object data="img/development.svg" class="w-9/12 float-right"></object>
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-white border-b py-8">
+    <section class="bg-white border-b py-8 bg-gray-100">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
+          Development Skills
         </h1>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                GETTING STARTED
-              </p>
-              <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
-              </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
-            </a>
-          </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-start">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow px-6 py-4">
+            <div class="w-full font-bold text-xl text-gray-800 mb-2">
+              Front-End
             </div>
+            <ul class="text-gray-600 ml-4 list-disc space-y-1">
+              <li>Blade</li>
+              <li>Vue</li>
+              <li>React</li>
+              <li>Laravel Livewire</li>
+              <li>jQuery</li>
+              <li>TailwindCSS</li>
+              <li>Bootstrap</li>
+              <li>Sass</li>
+            </ul>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                GETTING STARTED
-              </p>
-              <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
-              </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
-            </a>
-          </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-center">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow px-6 py-4">
+            <div class="w-full font-bold text-xl text-gray-800 mb-2">
+              Back-End
             </div>
+            <ul class="text-gray-600 ml-4 list-disc space-y-1">
+              <li>Laravel <span class="cursor-pointer text-blue-500 font-bold" title="expert">+++</span></li>
+              <li>PHP <span class="cursor-pointer text-blue-500 font-bold" title="expert">+++</span></li>
+              <li>MySQL <span class="cursor-pointer text-blue-500 font-bold" title="expert">+++</span></li>
+              <li>Linux <span class="cursor-pointer text-blue-500 font-bold" title="skilled">++</span></li>
+              <li>Apache <span class="cursor-pointer text-blue-500 font-bold" title="skilled">++</span></li>
+            </ul>
           </div>
         </div>
         <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-            <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-              <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                GETTING STARTED
-              </p>
-              <div class="w-full font-bold text-xl text-gray-800 px-6">
-                Lorem ipsum dolor sit amet.
-              </div>
-              <p class="text-gray-800 text-base px-6 mb-5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              </p>
-            </a>
-          </div>
-          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-            <div class="flex items-center justify-end">
-              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Action
-              </button>
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow px-6 py-4">
+            <div class="w-full font-bold text-xl text-gray-800 mb-2">
+              Device
             </div>
+            <ul class="text-gray-600 ml-4 list-disc space-y-1">
+              <li>iOS</li>
+              <li>Swift</li>
+              <li>SwiftUI</li>
+              <li>Objective-C</li>
+              <li>Xcode</li>
+            </ul>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="bg-gray-100 py-8">
-      <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-        <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Pricing
-        </h1>
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow px-6 py-4">
+            <div class="w-full font-bold text-xl text-gray-800 mb-2">
+              Desktop
+            </div>
+            <ul class="text-gray-600 ml-4 list-disc space-y-1">
+              <li>Adobe Animate (Flash)</li>
+              <li>ActionScript</li>
+              <li>Haxe</li>
+              <li>OpenFL</li>
+              <li>FlashDevelop</li>
+            </ul>
+          </div>
         </div>
-        <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-            <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Free
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow px-6 py-4">
+            <div class="w-full font-bold text-xl text-gray-800 mb-2">
+              Collaboration/DevOps
             </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £0
-                <span class="text-base">for one user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
-              </div>
-            </div>
+            <ul class="text-gray-600 ml-4 list-disc space-y-1">
+              <li>Git</li>
+              <li>GitLab</li>
+              <li>GitHub</li>
+              <li>PhpStorm</li>
+              <li>YouTrack</li>
+              <li>Upsource</li>
+              <li>Buddy</li>
+            </ul>
           </div>
-          <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
-              <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-              <ul class="w-full text-center text-base font-bold">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
+        </div>
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow px-6 py-4">
+            <div class="w-full font-bold text-xl text-gray-800 mb-2">
+              Design
             </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-4xl font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-            <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div class="p-8 text-3xl font-bold text-center border-b-4">
-                Pro
-              </div>
-              <ul class="w-full text-center text-sm">
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-                <li class="border-b py-4">Thing</li>
-              </ul>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £x.99
-                <span class="text-base">/ per user</span>
-              </div>
-              <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Sign Up
-                </button>
-              </div>
-            </div>
+            <ul class="text-gray-600 ml-4 list-disc space-y-1">
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Acrobat</li>
+              <li>InDesign</li>
+              <li>Aseprite</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -378,78 +295,6 @@
         </a>
       </div>
     </section>
-    <!--Footer-->
-    <!--<footer class="bg-white">
-      <div class="container mx-auto px-8">
-        <div class="w-full flex flex-col md:flex-row py-6">
-          <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-              &lt;!&ndash;Icon from: http://www.potlabicons.com/ &ndash;&gt;
-              <svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-                <rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
-                <path
-                  class="plane-take-off"
-                  d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "
-                />
-              </svg>
-              LANDING
-            </a>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Links</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Social</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Company</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>-->
       <a href="https://www.freepik.com/vectors/cartoon" class="text-gray-300 text-sm">Cartoon vector created by upklyak - www.freepik.com</a>
     </footer>
     <!-- jQuery if you need it
