@@ -18,3 +18,9 @@
 - device work (iOS)
 - desktop application work
 
+### "In my free time" Section
+- travel!
+- game development, game server management, gaming!
+- vintage electronics restoration (radios, televisions, jukeboxes, etc..)
+- machinery (lathes, milling machines, etc..) - restoration and making stuff with them
+- camping and fishing (catch and release), conservation
