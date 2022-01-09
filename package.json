@@ -1,0 +1,26 @@
+{
+  "name": "stevenlawson",
+  "version": "1.0.0",
+  "description": "Steven Lawson's Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -o tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toka15l/stevenlawson.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toka15l/stevenlawson.dev/issues"
+  },
+  "homepage": "https://github.com/toka15l/stevenlawson.dev#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^2.2.19"
+  }
+}
