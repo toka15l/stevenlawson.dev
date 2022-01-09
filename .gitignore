@@ -1,2 +1,4 @@
 /.idea
 /_pm
+/node_modules
+tailwind.css
